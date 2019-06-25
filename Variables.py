@@ -7,13 +7,13 @@ Created on Jun 19, 2019
 #Variables are used in programming to store information so it can be used or changed later
 
 #There are different types of variables
-integer = 2       #Integer: Whole numbers
-float = 2.5   #Floating Point: Non-whole numbers
-string = "ABC"   #String: Characters
+myInteger = 2       #Integer: Whole numbers
+myFloat = 2.5   #Floating Point: Non-whole numbers
+myString = "ABC"   #String: Characters
 
 #As shown in HelloWorld and Math, variables can be combined
-print(integer + float)
+print(myInteger + myFloat)
 
 #Floating points and integers can be combined because they are both numeric values.
 #To combine numeric values with a string you have to convert them into strings
-print(string + str(integer) + str(float))
+print(myString + str(myInteger) + str(myFloat))
